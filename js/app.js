@@ -55,7 +55,7 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
 		$routeProvider.when("/view42",{templateUrl:'partials/if-then-elif-else.html'});
 		$routeProvider.when("/view43",{templateUrl:'partials/simpleoop.html'});
 		$routeProvider.when("/view44",{templateUrl:'partials/functions.html'});
-		$routeProvider.when("/view45",{templateUrl:'partials/functions.html'});
+		$routeProvider.when("/view45",{templateUrl:'partials/shell.html'});
 		
 		$routeProvider.otherwise({redirectTo: '/'});
   }]);
